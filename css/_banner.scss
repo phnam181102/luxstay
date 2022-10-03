@@ -1,0 +1,45 @@
+.banner {
+    display: flex;
+    align-items: center;
+    margin-top: 125px;
+
+    .slider-1 {
+        .slick-slide {
+            margin: 0 6px;
+
+            .img {
+                width: 100%;
+                border-radius: 20px;
+            }
+        }
+
+        .slick-dots {
+            position: absolute;
+            list-style: none;
+            right: 36px;
+            bottom: 22px;
+            display: flex !important;
+            justify-content: center;
+
+            li {
+                margin: 0 4px;
+
+                button {
+                    font-size: 0;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 100rem;
+                    background: rgba(117, 117, 117, 0.356);
+                    color: transparent;
+                    border: none;
+                    outline: none;
+                }
+            }
+            .slick-active {
+                button {
+                    background: rgba(117, 117, 117, 0.733);
+                }
+            }
+        }
+    }
+}

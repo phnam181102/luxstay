@@ -1,0 +1,20 @@
+.section-3 {
+    .title {
+        margin-bottom: 18px;
+    }
+
+    .slider-3 {
+        margin: 0 -8px;
+
+        .slider__item {
+            width: 312px;
+            padding: 0 8px;
+            margin-top: 16px;
+
+            .article__image {
+                width: 100%;
+                border-radius: 3px;
+            }
+        }
+    }
+}
